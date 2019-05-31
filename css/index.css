@@ -155,4 +155,12 @@ header {
 
 a {
     margin-top: 30px;
+    text-decoration:  none;
+    color:  black;
+}
+
+img.header-img {
+    margin:  0 auto;
+    display:  flex;
+    margin-bottom: 20px;
 }
