@@ -211,7 +211,14 @@ section {
     display:  flex;
 }
 
-div {
+/*About page specific changes*/
+
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.middle-segments {
     display:  flex;
     flex-direction: column;
     border-bottom: 1px dotted black;
