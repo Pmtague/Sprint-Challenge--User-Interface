@@ -203,3 +203,21 @@ img.header-img {
     display:  flex;
     margin-bottom: 20px;
 }
+
+/*Additions Below this Point*/
+
+section {
+    display:  flex;
+}
+
+div {
+    display:  flex;
+    flex-direction: column;
+    border-bottom: 1px dotted black;
+}
+
+.upper-lower {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dotted black;
+}
