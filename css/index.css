@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    padding-bottom: 20px;
 }
 
 .container {
@@ -202,4 +203,36 @@ img.header-img {
     margin:  0 auto;
     display:  flex;
     margin-bottom: 20px;
+}
+
+/*Additions Below this Point*/
+
+section {
+    display:  flex;
+}
+
+/*About page specific changes*/
+
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.middle-segments {
+    display:  flex;
+    flex-direction: column;
+    border-bottom: 1px dotted black;
+}
+
+.upper-lower {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dotted black;
+}
+
+.button {
+    color: black;
+	border: 2px solid black;
+    padding: 7px 20px;
+    border-radius: 10px;
 }
