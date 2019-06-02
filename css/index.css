@@ -89,6 +89,7 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    flex-direction: column;
 }
 
 .middle-content h2 {
@@ -191,18 +192,22 @@ header {
     display:  flex;
     justify-content: space-between;
     margin-bottom: 30px;
+    padding-right: 40px;
 }
 
 a {
-    margin-top: 30px;
     text-decoration:  none;
     color:  black;
+}
+
+.header-nav {
+    margin-top: 25px;
 }
 
 img.header-img {
     margin:  0 auto;
     display:  flex;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 
 /*Additions Below this Point*/
@@ -222,12 +227,15 @@ section {
     display:  flex;
     flex-direction: column;
     border-bottom: 1px dotted black;
+    width: 46%;
+    margin: 2%;
 }
 
 .upper-lower {
     display: flex;
     flex-direction: column;
-    border-bottom: 1px dotted black;
+    
+    padding: 20px;
 }
 
 .button {
@@ -235,4 +243,12 @@ section {
 	border: 2px solid black;
     padding: 7px 20px;
     border-radius: 10px;
+}
+
+img {
+    padding-bottom: 10px;
+}
+
+p.about {
+    border-bottom: 1px dotted black;
 }
